@@ -1,4 +1,4 @@
-/* CSS reset*/
+													/* CSS reset*/
 html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
 del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
@@ -11,9 +11,8 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
 	outline: 0;
 	padding: 0;
 	margin: 0;
-	/* border: 0; */
 	}
-/* remember to define focus styles! */
+												/* remember to define focus styles! */
 :focus {
 	outline: 0;
 	}
@@ -25,7 +24,7 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
 }
 
 
-/* General Styles*/
+													/* General Styles*/
 
 html {
     font-size: 62.5%;
@@ -63,18 +62,41 @@ nav a{
 	text-align: center;
 	color: #fff;
 	font-size: 1.5rem;
+	font-weight: 600;
 }
 .nav-1 {
 	background-color: #FF764E;
 	margin-left: 10%;
+	transition: 750ms;
 }
+.nav-1:hover {
+	background-color: #FFC0AD;
+	color: #161727;
+	font-style: italic;
+}
+
+
 .nav-2 {
 	background-color: #5ED3EB;
 	margin: 0 24%;
+	transition: 750ms;
 }
+.nav-2:hover {
+	background-color: #B6EBF6;
+	color: #161727;
+	font-style: italic;
+}
+
+
 .nav-3 {
 	background-color: #FFCD69;
 	margin-right: 10%;
+	transition: 750ms;
+}
+.nav-3:hover {
+	background-color: #FFEBC2;
+	color: #161727;
+	font-style: italic;
 }
 
 													/* End nav styling */
@@ -89,7 +111,7 @@ nav a{
 }
 .hero-img {
 	width: 30%;
-	margin-left: 5%;
+	margin-left: 6.66%;
 }
 .hero-img img {
 	border-radius: 50%;
@@ -98,7 +120,6 @@ nav a{
 .hero-text {
 	position: absolute;
 	width: 53%;
-	margin-left: 1%;
 	top: 20%;
 }
 .top-info p {
@@ -126,9 +147,9 @@ nav a{
 	margin-bottom: 2%;
 }
 .about-text p {
-	font-size: 2rem;
+	font-size: 1.75rem;
 	font-weight: 500;
-	padding: 2% 1%;
+	padding: 2% 0.5%;
 	color: white;
 	line-height: 1em;
 }
