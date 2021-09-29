@@ -22,7 +22,6 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
     padding:0;
     margin:0;
     max-width:100%;
-    border:1px solid grey;
 }
 
 
@@ -46,7 +45,12 @@ a {
 }
 h1 {
 	font-family: 'Chelsea Market', cursive;
+	font-size: 7rem;
+	color: black;
 }
+
+
+													/* Start nav styling */
 nav {
 	padding: 2% 0;
 }
@@ -57,35 +61,97 @@ nav a{
 	border-radius: 10px;
 	text-align: center;
 	color: #fff;
+	font-size: 2rem;
 }
-.orange {
+.nav-1 {
 	background-color: #FF764E;
 	margin-left: 10%;
 }
-.blue {
+.nav-2 {
 	background-color: #5ED3EB;
 	margin: 0 24%;
 }
-.yellow {
+.nav-3 {
 	background-color: #FFCD69;
 	margin-right: 10%;
 }
-.top {
+
+													/* End nav styling */
+
+          									/* Start styling photo-welcome section */
+.photo-welcome {
 	position: relative;
 }
-.left, .right {
+.hero-img, .hero-text {
 	display: inline-block;
-}
-.left {
-	width: 30%;
-}
-.left img {
-	border-radius: 50%;
-	width: 80%;
 	text-align: center;
 }
-.right {
-	width: 55%;
+.hero-img {
+	width: 30%;
 	margin-left: 5%;
-	top: 45%;
+}
+.hero-img img {
+	border-radius: 50%;
+	width: 77%;
+}
+.hero-text {
+	position: absolute;
+	width: 55%;
+	margin-left: 1%;
+	top: 20%;
+}
+.top-info p {
+	font-size: 2.25rem;
+	color: black;
+	margin: 2% 0;
+	font-weight: 500;
+}
+.top-info p:last-child {
+	position: absolute;
+	width: 49%;
+	left: 25%;
+}
+											/* End styling for photo-welcome section */
+
+												/* Start about section styling */
+
+#about {
+	width: 85%;
+	padding: 0;
+	margin: auto;
+	background-color: #DDB9A3;
+	margin-bottom: 2%;
+}
+.about-text p {
+	font-size: 2.25rem;
+	text-align: center;
+	padding: 1% 1%;
+	color: white;
+}
+
+												 /* End styling about section */
+
+											/* Start Styling for imgs-text section */
+
+.imgs-text {
+	width: 85%;
+	margin: auto;
+	text-align: center;
+	padding: 0;
+}
+.imgs-text p {
+	text-align: center;
+	width: 100%;
+	line-height: 95%;
+}
+.img-box-1, .img-box-2 {
+	margin: auto;
+	width: 22.7%;
+	font-weight: 600;
+	margin-bottom: 4%;
+}
+.imgs-text img {
+	width: 50%;
+	height: auto;
+	text-align: center;
 }
